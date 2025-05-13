@@ -1,0 +1,110 @@
+/* General Style */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  color: #5c7879;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 50px 0;
+}
+
+header {
+  background-color: #5CAAA6;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  font-size: 18px;
+}
+
+.hero-content {
+  text-align: center;
+  background-image: url('hero-image.jpg'); /* Add your hero image */
+  background-size: cover;
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.hero-content .btn {
+  padding: 10px 20px;
+  background-color: #FFA69E;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #5c7879;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #5CAAA6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
